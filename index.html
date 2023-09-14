@@ -1,0 +1,294 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación del API de Comercio Electrónico</title>
+    <style>
+       
+    body {
+        background-image: url('FONDO.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+        /* Estilo para el texto del encabezado */
+        h1, h2, h3 {
+            color: #333; /* Cambia el color del texto del encabezado */
+            text-align: center; /* Centra el texto en el medio de la página */
+        }
+
+        /* Estilo para el índice de contenido */
+        #indice {
+            background-color: #333; /* Cambia el color de fondo del índice */
+            color: #fff; /* Cambia el color del texto del índice a blanco */
+            padding: 10px; /* Añade espacio alrededor del índice */
+            margin-bottom: 20px; /* Agrega margen en la parte inferior */
+        }
+
+        /* Estilo para los enlaces del índice */
+        #indice a {
+            color: #fff; /* Cambia el color de los enlaces a blanco */
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+        }
+
+        /* Estilo para los enlaces del índice al pasar el cursor sobre ellos */
+        #indice a:hover {
+            text-decoration: underline; /* Agrega subrayado al pasar el cursor sobre los enlaces */
+        }
+
+        /* Estilo para el contenido principal */
+        #contenido {
+            padding: 20px; /* Añade espacio alrededor del contenido principal */
+            background-color: #ffffff; /* Cambia el color de fondo del contenido principal */
+        }
+    </style>
+</head>
+<body>
+    <!-- Portada -->
+    <div id="portada">
+        <center>
+            <h1 style="color: white;">UNIVERSIDAD MANUELA BELTRAN</h1>
+            <img src="C:\Users\HP\Documents\Camilo Gómez\Universidad\Semestre 6\Taller de programacion\API\LOGO.jpg" alt="Logo de la universidad" width="100" height="150">
+            <p style="color: white;">Camilo Andrés Gómez Bernal</p>
+            <p style="color: white;">Juan Diego Arévalo Guzmán</p>
+            <p style="color: white;">Programa de Ingeniería de Software</p>
+            <p style="color: white;">Taller de Programación</p>
+            <p style="color: white;">Documentación del API de Comercio Electrónico</p>
+            <p style="color: white;">Septiembre de 2023</p>
+        </center>
+    </div>
+
+    <!-- Índice de Contenido -->
+    <div id="indice">
+        <h2 style="color: white;">ÍNDICE DE CONTENIDO</h2>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#evolucion-comercio-electronico">La Evolución del Comercio Electrónico</a></li>
+            <li><a href="#apoyo-estudiantes-desarrolladores">Apoyo a los Estudiantes y Desarrolladores</a></li>
+            <li><a href="#objetivo-principal">Objetivo Principal</a></li>
+            <li><a href="#nuestra-vision">Nuestra Visión</a></li>
+            <li><a href="#proposito">Propósito</a></li>
+            <li><a href="#usuarios-previstos">Usuarios Previstos</a></li>
+            <li><a href="#casos-de-uso">Casos de Uso</a></li>
+            <li><a href="#endpoints-disponibles">Endpoints Disponibles</a></li>
+            <li><a href="#parámetros-de-consulta">Parámetros de Consulta</a></li>
+            <li><a href="#estructura-de-la-informacion-retornada">Estructura de la Información Retornada</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenido -->
+    <div id="contenido">
+
+        <!-- Introducción -->
+        <h2 id="introduccion">INTRODUCCIÓN</h2>
+        <p>
+            El API de Comercio Electrónico representa una solución integral diseñada meticulosamente para simplificar y potenciar la gestión de una plataforma de venta en línea. En un mundo cada vez más digitalizado, el comercio electrónico se ha convertido en un pilar fundamental para empresas de todos los tamaños y sectores. Nuestro API está específicamente diseñado para crear una herramienta poderosa y versátil que simplifique y mejore la gestión de una plataforma de venta en línea.
+        </p>
+
+        <!-- La Evolución del Comercio Electrónico -->
+        <h3 id="evolucion-comercio-electronico" style="text-align: left;">La Evolución del Comercio Electrónico</h3>
+<p>
+    El comercio electrónico ha evolucionado a pasos agigantados en los últimos años. Lo que comenzó como simples catálogos en línea ha dado lugar a complejas plataformas de ventas, donde la experiencia del usuario, la eficiencia operativa y la innovación tecnológica son clave. En este contexto, el API de Comercio Electrónico se presenta como una solución versátil y adaptable que se ajusta a las demandas cambiantes de este sector dinámico. El mundo del comercio en línea está en constante evolución, y las soluciones tecnológicas desempeñan un papel fundamental en la creación de experiencias de compra excepcionales. Nuestro objetivo es ofrecer a otros estudiantes y desarrolladores una herramienta que les permita explorar y aprender en un entorno práctico, al tiempo que contribuye a mejorar el comercio electrónico en línea.
+</p>
+
+<!-- Apoyo a los Estudiantes y Desarrolladores -->
+<h3 id="apoyo-estudiantes-desarrolladores"style="text-align: left;">Apoyo a los Estudiantes y Desarrolladores</h3>
+<p>
+    Este API está diseñado pensando en estudiantes como nosotros, así como en desarrolladores que buscan expandir sus conocimientos y habilidades en ingeniería de software. Creemos en el poder de la programación para transformar ideas en soluciones prácticas. Con este API, queremos brindarles las herramientas necesarias para que puedan crear y experimentar con sus propias soluciones de comercio electrónico.
+</p>
+
+<!-- Objetivo Principal -->
+<h3 id="objetivo-principal"style="text-align: left;">Objetivo Principal</h3>
+<p>
+    El objetivo principal de este API es proporcionar una base sólida para crear una plataforma de comercio electrónico, similar a las que existen en la industria, pero con un enfoque en la simplicidad y el aprendizaje. Deseamos que los usuarios puedan explorar y experimentar con la gestión de productos, carritos de compra, procesamiento de órdenes y autenticación de usuarios de manera programática.
+</p>
+
+<!-- Nuestra Visión -->
+<h3 id="nuestra-vision"style="text-align: left;">Nuestra Visión</h3>
+<p>
+    Nuestra visión es que este API se convierta en una plataforma de aprendizaje colaborativa donde los estudiantes de ingenierías puedan contribuir, aprender y crecer juntos. Queremos fomentar la colaboración y el intercambio de conocimientos en un proyecto que refleje las mejores prácticas en desarrollo de software.
+</p>
+
+<!-- Propósito -->
+<h3 id="proposito"style="text-align: left;">Propósito</h3>
+<p>
+    El propósito central del API de Comercio Electrónico es proporcionar una plataforma de aprendizaje y desarrollo para estudiantes de ingeniería de software. Aquí está cómo se desglosa este propósito:
+</p>
+
+<!-- Aprendizaje Práctico -->
+<h3 id="aprendizaje-practico"style="text-align: left;">Aprendizaje Práctico</h3>
+<p>
+    El API está diseñado para brindar a los estudiantes la oportunidad de aplicar sus conocimientos teóricos en un proyecto práctico y realista. Les permite explorar y comprender en profundidad cómo funcionan los sistemas de comercio electrónico, desde la gestión de productos hasta la interacción con usuarios.
+</p>
+
+<!-- Desarrollo de Habilidades -->
+<h3 id="desarrollo-de-habilidades"style="text-align: left;">Desarrollo de Habilidades</h3>
+<p>
+    Al utilizar el API, los estudiantes pueden desarrollar habilidades técnicas en programación, gestión de bases de datos, seguridad informática y otros aspectos relacionados con el desarrollo de software. Esta experiencia práctica es esencial para su crecimiento como futuros ingenieros de software.
+</p>
+
+<!-- Colaboración y Comunidad -->
+<h3 id="colaboracion-y-comunidad"style="text-align: left;">Colaboración y Comunidad</h3>
+<p>
+    Fomenta la colaboración entre estudiantes al crear un espacio donde pueden trabajar juntos en un proyecto común. Además, al publicar y compartir su API con otros, contribuyen a la comunidad de aprendizaje y permiten que otros estudiantes también se beneficien de esta herramienta.
+</p>
+
+        <!-- Usuarios Previstos -->
+        <h2 id="usuarios-previstos">USUARIOS PREVISTOS</h2>
+        <p>
+            El API de Comercio Electrónico se ha diseñado pensando en una variedad de usuarios previstos, con un enfoque especial en proporcionar un ambiente de aprendizaje enriquecedor para estudiantes de ingenierías:
+        </p>
+
+        <!-- Estudiantes de Ingenierías -->
+        <h3 id="estudiantes-de-ingenierias"style="text-align: left;">Estudiantes de Ingenierías</h3>
+        <p>
+            El grupo principal de usuarios previstos son estudiantes de ingeniería de software, como tú. Este API está diseñado para brindarles una plataforma de práctica y aprendizaje en la que puedan aplicar y consolidar sus conocimientos teóricos en el desarrollo de software. Permite a los estudiantes explorar conceptos y tecnologías clave relacionados con el comercio electrónico, incluida la gestión de datos, la seguridad, la interacción con usuarios y la resolución de problemas prácticos.
+        </p>
+
+        <!-- Desarrolladores en Formación -->
+        <h3 id="desarrolladores-en-formacion"style="text-align: left;">Desarrolladores en Formación</h3>
+        <p>
+            Además de los estudiantes, el API también está abierto para cualquier persona que esté interesada en aprender sobre el desarrollo de API y las aplicaciones de comercio electrónico. Puede ser utilizado por desarrolladores en formación que deseen adquirir experiencia en el diseño y desarrollo de soluciones de comercio electrónico.
+        </p>
+
+        <!-- Comunidad de Aprendizaje -->
+        <h3 id="comunidad-de-aprendizaje"style="text-align: left;">Comunidad de Aprendizaje</h3>
+        <p>
+            El API está destinado a formar parte de una comunidad de aprendizaje más amplia. Los usuarios previstos incluyen a aquellos que buscan aprender, colaborar y compartir conocimientos con otros estudiantes y desarrolladores interesados en el desarrollo de software y el comercio electrónico.
+        </p>
+
+        <!-- Profesores y Educadores -->
+        <h3 id="profesores-y-educadores"style="text-align: left;">Profesores y Educadores</h3>
+        <p>
+            Los educadores de ingeniería de software también pueden encontrar valor en este API como recurso didáctico. Pueden utilizarlo como una herramienta para enseñar conceptos de desarrollo de software y comercio electrónico en un entorno práctico, lo que facilita la comprensión de los estudiantes.
+        </p>
+
+        <!-- Casos de Uso  -->
+        <h2 id="casos-de-uso-comunes">CASOS DE USO </h2>
+        <p>
+            Se ha diseñado para abordar una variedad de casos de uso comunes relacionados con el comercio en línea. Estos casos de uso proporcionan un punto de partida para que los estudiantes exploren y practiquen conceptos y habilidades en desarrollo de software y comercio electrónico:
+        </p>
+
+        <!-- Agregar Productos al Catálogo -->
+        <h3 id="agregar-productos-al-catalogo"style="text-align: left;">Agregar Productos al Catálogo</h3>
+        <p>
+            Los estudiantes pueden utilizar el API para implementar la funcionalidad de agregar nuevos productos al catálogo de una tienda en línea. Esto incluye la creación de entradas de productos con detalles como nombre, descripción, precio y disponibilidad.
+        </p>
+
+        <!-- Gestionar el Carrito de Compra -->
+        <h3 id="gestionar-el-carrito-de-compra"style="text-align: left;">Gestionar el Carrito de Compra</h3>
+        <p>
+            El API permite a los estudiantes implementar la gestión de carritos de compra, lo que incluye agregar productos al carrito, eliminar productos, calcular el total de la compra y gestionar el estado del carrito para los usuarios.
+        </p>
+
+        <!-- Diagramas -->
+<h2 id="diagramas">DIAGRAMAS</h2>
+<p>
+    Diagrama de Casos de Uso para Usuario Registrado
+    Actores:
+</p>
+<table border="1">
+    <tr>
+        <th>Actores</th>
+        <th>Casos de Uso</th>
+    </tr>
+    <tr>
+        <td>Usuario Registrado</td>
+        <td>
+            <ul>
+
+                <li>Agregar Producto al Carrito</li>
+                <li>Gestionar Carrito de Compra</li>
+                <li>Realizar Pedido</li>
+
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<!-- Diagrama de Casos de Uso -->
+<p>Diagrama de Casos de Uso:</p>
+<img src="C:\Users\HP\Documents\Camilo Gómez\Universidad\Semestre 6\Taller de programacion\API\UseCaseDiagram1.png" alt="Codigo" width="500" height="300">
+
+<p>
+    Diagrama de Casos de Uso para Administrador del Sistema
+    Actores:
+</p>
+<table border="1">
+    <tr>
+        <th>Actores</th>
+        <th>Casos de Uso</th>
+    </tr>
+    <tr>
+        <td>Administrador del Sistema</td>
+        <td>
+            <ul>
+                <li>Iniciar Sesión como Administrador</li>
+                <li>Gestionar Productos</li>
+                <li>Administrar Órdenes</li>
+                
+            </ul>
+        </td>
+    </tr>
+</table>
+<!-- Diagrama de Casos de Uso -->
+<p>Diagrama de Casos de Uso:</p>
+<img src="C:\Users\HP\Documents\Camilo Gómez\Universidad\Semestre 6\Taller de programacion\API\UseCaseDiagram2.png" alt="Codigo" width="500" height="300">
+        
+
+        <!-- Endpoints Disponibles -->
+        <h2 id="endpoints-disponibles">ENDPOINTS DISPONIBLES</h2>
+        <p>
+            El API se compone de varios endpoints que permiten realizar diferentes operaciones relacionadas con el comercio electrónico. A continuación, se enumeran los principales endpoints disponibles:
+        </p>
+
+        <!-- Productos -->
+        <h3 id="productos"style="text-align: left;">Productos</h3>
+        <p>
+            Este endpoint se utiliza para gestionar productos en el catálogo. Puedes realizar operaciones como obtener información sobre productos, agregar nuevos productos, actualizar información de productos existentes o eliminar productos.
+        </p>
+
+        <!-- Carrito -->
+        <h3 id="carrito"style="text-align: left;">Carrito</h3>
+        <p>
+            Permite administrar el carrito de compra de un usuario. Esto incluye agregar productos al carrito, eliminar productos del carrito y ver los productos en el carrito.
+        </p>
+
+        <!-- Usuarios -->
+        <h3 id="usuarios"style="text-align: left;">Usuarios</h3>
+        <p>
+            Aunque no estás manejando autenticación ni autorización, este endpoint gestiona usuarios y autenticación. Puedes utilizarlo para obtener información de usuarios (si lo permites) o realizar operaciones relacionadas con la gestión de usuarios (si habilitas la funcionalidad de registro y autenticación en el futuro).
+        </p>
+
+        <!-- Parámetros de Consulta -->
+        <h3 id="parametros-de-consulta"style="text-align: left;">Parámetros de Consulta:</h3>
+        <p>
+            Los parámetros de consulta son valores que puedes proporcionar en la URL al hacer una solicitud a un endpoint específico. En este caso, los parámetros de consulta disponibles incluyen:
+        </p>
+
+        <!-- Nombre  -->
+        <h4 id="nombre-cadena"style="text-align: left;">* Nombre:</h4>
+        <p>
+            Puedes utilizar este parámetro para buscar productos por nombre. Por ejemplo, si deseas buscar un producto específico en el catálogo, puedes proporcionar el nombre del producto como valor de este parámetro.
+        </p>
+
+        <!-- Precio Mínimo  -->
+        <h4 id="precio-minimo-decimal"style="text-align: left;">* Precio</h4>
+        <p>
+            Este parámetro te permite filtrar productos en función de su precio mínimo. Puedes establecer un valor mínimo y obtener una lista de productos que cumplan con ese criterio.
+        </p>
+        
+
+        <!-- Estructura de la Información Retornada -->
+        <h3 id="estructura-de-la-informacion-retornada">ESTRUCTURA DE LA INFORMACIÓN RETORNADA</h3>
+        <p>
+            Al realizar solicitudes a los endpoints del API, recibirás información de modo que  los datos estén estructurados de la siguiente manera:
+        </p>
+        <img src="C:\Users\HP\Documents\Camilo Gómez\Universidad\Semestre 6\Taller de programacion\API\CODIGO.png" alt="Codigo" width="300" height="200">
+
+      
+    </div>
+</body>
+</html>
